@@ -52,6 +52,6 @@ public class Item <name, price>{
     public String returnCSV()
     {
         String modifiedName = stringtoCSV(name);
-        return String.format("\"%s\", \"%.2f\", \"%d\"", modifiedName, price, amount);
+        return String.format("\"%s\", %.2f, %d", modifiedName, price, amount);
     }
 }

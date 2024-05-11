@@ -7,7 +7,7 @@ import java.util.List;
 public class ShoppingList {
     private List<Item> shopping;
     private String listName;
-    
+
     public ShoppingList(Item... ConstructorItemsList)
     {
         shopping = new ArrayList<Item>();
